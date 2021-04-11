@@ -1,0 +1,10 @@
+$ python deep_learning_with_opencv.py --image images/jemma.png 
+	--prototxt bvlc_googlenet.prototxt \
+	--model bvlc_googlenet.caffemodel --labels synset_words.txt
+[INFO] loading model...
+[INFO] classification took 0.075035 seconds
+[INFO] 1. label: beagle, probability: 0.81137
+[INFO] 2. label: Labrador retriever, probability: 0.031416
+[INFO] 3. label: bluetick, probability: 0.023929
+[INFO] 4. label: EntleBucher, probability: 0.017507
+[INFO] 5. label: Greater Swiss Mountain dog, probability: 0.01444
